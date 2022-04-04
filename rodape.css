@@ -1,0 +1,10 @@
+.rodape {
+    background: #d9d9d9;
+    display: flex;
+}
+
+.logo-rodape {
+    margin: auto;
+    width: 177px;
+    height: 100px;
+}

@@ -1,0 +1,32 @@
+.banner {
+    position: relative;
+}
+
+.banner-imagem {
+  width: 100%;
+}
+
+.banner-texto {
+    color: #fffafa;
+    font-family: 'Vesper Libre', serif;
+    font-size: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner-imagem {
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner-imagem {
+        height: calc(100vh - 72px);
+    }
+}
