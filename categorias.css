@@ -1,0 +1,22 @@
+.lista-categorias {
+    background: #d9d9d9;
+    padding: 3rem 2rem 2rem 3rem;
+    text-align: center; 
+}
+
+.botoes-categoria {
+    align-items: center;
+    font-family: Pacifico, cursive;
+    margin: auto;
+}
+
+.botao {
+    color: #AD0303;
+    font-family: Pacifico, cursive;
+    font-size: 25px;
+    background-color: whitesmoke;
+    border-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 3rem 3rem;
+}
